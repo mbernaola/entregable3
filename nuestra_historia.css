@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Great+Vibes&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto";
+    background-color: rgb(241, 233, 233);
+  }
+  
+  header {
+    padding: 1em 0;
+    background-color: #c94b4b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 6em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    color: rgba(201, 75, 75, 0.85);
+    border-bottom: 2px solid white;
+    background-color: yellow;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .fundador{
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    width: 100%;
+    margin: 50px auto;
+    max-width: 850px;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 0 2 5px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+  }
+
+  .fundador img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #d32f2f;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+   h2{
+    font-family: "Great Vibes";
+    color: #d32f2f;
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+   h3{
+    color: #2e7d32;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  .lect1 .lect2 .lect3{
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .lect2{
+    margin-top: 20px;
+  }
+
+  .lect3{
+    margin-top: 20px;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(112, 231, 112);
+    font-size: 3rem;
+    padding: 5px;
+    z-index: 100;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+  }
